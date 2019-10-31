@@ -1,0 +1,57 @@
+@import '../static/utils/vars.scss';
+@import '../static/utils/fonts.scss';
+
+html {
+    min-width: $min-width;
+    height: 100%;
+    color: $main-text-color;
+    font-family: $main-regular-font;
+    font-size: $main-font-size;
+    line-height: $main-line-height;
+}
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: $white-color;
+}
+
+h1, h2, h3, h4, h5, h6 { margin: 0; }
+
+a {
+    color: $secondary-action-color;
+    text-decoration: none;
+    transition: color linear .2s;
+    cursor: pointer;
+
+    &:hover { color: $third-action-color; }
+
+    &:visited { color: $secondary-action-color; }
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+p { margin: 0; }
+
+button { outline: none; }
+
+#app { height: 100%; }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.content { flex: 1 0 auto; }
+
+.footer { flex: 0 0 auto; }
+
+.body-fixed { overflow: hidden; }

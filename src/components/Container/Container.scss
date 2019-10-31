@@ -1,0 +1,15 @@
+@import '~/static/utils/vars.scss';
+
+.container {
+    box-sizing: border-box;
+    max-width: $container-max-width;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: $desktop-offset;
+    padding-left: $desktop-offset;
+
+    @media screen and (max-width: $phone-width) {
+        padding-right: $table-offset;
+        padding-left: $table-offset;
+    }
+}

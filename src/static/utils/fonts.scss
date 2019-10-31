@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "MuseoSans-Medium";
+    src: url('/fonts/MuseoSans-Medium/MuseoSans-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+         url('/fonts/MuseoSans-Medium/MuseoSans-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/MuseoSans-Medium/MuseoSans-Medium.svg') format('svg'); /* Legacy iOS */
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MuseoSans-Demi";
+    src: url('/fonts/MuseoSans-Demi/MuseoSans-Demi.woff') format('woff'), /* Pretty Modern Browsers */
+         url('/fonts/MuseoSans-Demi/MuseoSans-Demi.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/MuseoSans-Demi/MuseoSans-Demi.svg') format('svg'); /* Legacy iOS */
+    font-weight: 300;
+    font-style: normal;
+}

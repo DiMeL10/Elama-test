@@ -1,0 +1,36 @@
+@import '~/static/utils/vars.scss';
+
+.button {
+    display: block;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0 30px;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    background-color: $secondary-action-color;
+    color: $white-color;
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: inherit;
+    white-space: nowrap;
+    transition: background-color .3s;
+    cursor: pointer;
+
+    &:hover { background-color: darken($secondary-action-color, 5%); }
+
+    &_theme {
+        &_green {
+            background-color: $main-action-color;
+
+            &:hover { background-color: darken($main-action-color, 5%); }
+        }
+    }
+
+    &_size {
+        &_m {
+            height: 60px;
+            padding: 0 40px;
+        }
+    }
+}

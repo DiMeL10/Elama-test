@@ -1,0 +1,24 @@
+@import '~/static/utils/vars.scss';
+
+@mixin text-level-1 {
+    font-family: $main-regular-font;
+    font-size: 2.57rem;
+    line-height: 1.33;
+
+    @media screen and (max-width: $table-width) {
+        font-size: 1.71rem;
+        line-height: 1.33;
+    }
+}
+
+@mixin text-level-2 {
+    font-family: $main-regular-font;
+    font-size: 1.14rem;
+    line-height: 1.75;
+}
+
+@mixin text-level-3 {
+    font-family: $main-regular-font;
+    font-size: 0.93rem;
+    line-height: 1.85;
+}
